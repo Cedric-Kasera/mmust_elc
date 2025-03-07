@@ -1,9 +1,10 @@
 import React from "react";
 import { FaArrowRight } from "react-icons/fa";
 import { Link } from "react-router-dom";
+
 import aboutImage from "../assets/studentDis.jpg"; 
-import missionImage from "../assets/study.jpg"; 
-import storyImage from "../assets/studeSit.jpg"; 
+import missionImage from "../assets/study.jpg";
+import storyImage from "../assets/group.jpg"; 
 
 const About = () => {
   return (
@@ -16,7 +17,7 @@ const About = () => {
         </div>
       </section>
 
-      
+     
       <section className="max-w-screen-xl mx-auto px-6 my-20 flex flex-col md:flex-row items-center">
         <div className="md:w-1/2 text-center md:text-left">
           <h3 className="text-4xl font-semibold mb-4">Our Mission</h3>
@@ -30,15 +31,15 @@ const About = () => {
         </div>
       </section>
 
-     
-      <section className="max-w-screen-xl mx-auto px-6 my-20 flex flex-col md:flex-row-reverse items-center">
-        <div className="md:w-1/2 text-center md:text-left">
-          <h3 className="text-4xl font-semibold mb-4">Our Story</h3>
+      
+      <section className="max-w-screen-xl mx-auto px-6 my-20 flex flex-col md:flex-row-reverse items-center md:space-x-10">
+        <div className="md:w-1/2 text-center md:text-left space-y-6">
+          <h3 className="text-4xl font-semibold">Our Story</h3>
           <p className="text-lg">
             Founded by a group of passionate students, the MMUST ELC Club has grown to become a vibrant community
             where creativity thrives. We are driven by the desire to enrich the student experience and promote learning.
           </p>
-          <p className="text-lg mt-4">
+          <p className="text-lg">
             We have organized events, workshops, and activities that encourage personal growth and foster collaboration.
           </p>
         </div>
@@ -47,7 +48,7 @@ const About = () => {
         </div>
       </section>
 
-     
+    
       <section className="text-center my-10">
         <Link to="/events">
           <button className="bg-blue-500 text-white px-6 py-3 text-xl rounded-md hover:bg-blue-700 transition-all">
