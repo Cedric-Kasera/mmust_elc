@@ -1,7 +1,7 @@
 import { NavLink } from "react-router-dom"
 import { FiMenu } from "react-icons/fi";
 import "./Navbar.css"
-import Logo from "../assets/Logo.svg"
+import Logo from "../../assets/Logo.png"
 
 const Navbar = () => {
   return (
