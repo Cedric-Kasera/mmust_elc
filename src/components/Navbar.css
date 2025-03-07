@@ -1,0 +1,15 @@
+.active {
+  background-color: #b57d7dff;
+  border-radius: 6px;
+}
+
+colors {
+  --baby-powder: #f8fcfbff;
+  --misty-rose: #ecdad8ff;
+  --timberwolf: #d8cccbff;
+  --old-rose: #b57d7dff;
+  --caput-mortuum: #652727ff;
+  --white: #fdfdfdff;
+  --rosewood: #5f0909ff;
+  --bole: #754443ff;
+}
