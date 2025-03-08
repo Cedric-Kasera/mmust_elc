@@ -7,7 +7,7 @@ import Events from "./pages/Events"
 function App() {
 
   return (
-    <div className="h-[100vh] bg-gray-50" >
+    <div className="min-h-screen bg-gray-50">
       <div className="pt-3 px-3 sticky top-0">
         <Navbar />
       </div>
