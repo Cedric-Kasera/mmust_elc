@@ -1,16 +1,7 @@
-import Posts from "../components/Posts/Posts"
-
 const Events = () => {
   return (
-    <div className="w-full mx-auto items-center justify-center h-[80vh]">
-      <Posts />
-      <Posts />
-      <Posts />
-      <Posts />
-      <Posts />
-      <Posts />
-      <Posts />
-      <Posts />
+    <div className="">
+      <h1 className="font-bold text-4xl">Events Page</h1>
     </div>
   )
 }

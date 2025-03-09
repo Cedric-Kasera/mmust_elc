@@ -1,0 +1,59 @@
+.programs {
+    margin: 80px auto;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.program {
+    flex-basis: 31%; /* Reduces the width t0 31% and uses the rest as gaps btn the images */
+    position: relative;
+}
+
+.program img {
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+}
+
+.caption {
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(95, 9, 9, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: var(--white);
+    cursor: pointer;
+    opacity: 0;
+    padding-top: 70%;
+    transition: 0.4s;
+}
+
+.caption img {
+    width: 80px;
+    margin-bottom: 10px;
+}
+
+.program:hover .caption {
+    opacity: 1;
+    padding-top: 0;
+}
+
+/* ===== Media Query ===== */
+@media (max-width: 650px) {
+    .programs {
+        flex-direction: column;
+    }
+
+    .program {
+        flex-basis: 100%;
+        margin: 20px;
+    }
+}
