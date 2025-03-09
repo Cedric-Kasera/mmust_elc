@@ -1,7 +1,7 @@
 import { useState } from "react"
 import Info from "../components/About/Info"
 import Contact from "../components/Contact/Contact"
-import Gallery from "../components/gallery/gallery"
+import Gallery from "../components/gallery/Gallery"
 import Hero from "../components/Hero/Hero"
 import Player from "../components/Player/Player"
 import Programs from "../components/program/Programs"
