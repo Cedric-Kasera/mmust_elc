@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const AboutHero = () => {
     return (
-        <div className="font-sans bg-gray-100 py-20 min-h-screen flex flex-col justify-center">
+        <div className="font-sans bg-gray-400 py-20 min-h-screen flex flex-col justify-center">
             <section className="bg-cover bg-center h-96" style={{ backgroundImage: `url("https://i.postimg.cc/hGJN7hJV/student-Dis.jpg")` }}>
                 <div className="flex items-center justify-center h-full bg-black bg-opacity-50 text-center text-white">
                     <h2 className="text-5xl font-bold">Welcome to MMUST ELC Club</h2>

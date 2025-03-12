@@ -21,6 +21,11 @@
     font-weight: 600;
 }
 
+.hero-text .intro {
+  font-size: 20px;
+  font-weight: 600;
+}
+
 .hero-text p {
     max-width: 700px;
     margin: 10px auto 20px;
