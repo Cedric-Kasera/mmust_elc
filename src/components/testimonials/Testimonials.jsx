@@ -1,10 +1,6 @@
 import "./Testimonials.css"
 import back_icon from "../../assets/back-icon.png"
 import next_icon from "../../assets/next-icon.png"
-import user_1 from "../../assets/user-1.png"
-import user_2 from "../../assets/user-2.png"
-import user_3 from "../../assets/user-3.png"
-import user_4 from "../../assets/user-4.png"
 import { useRef } from "react"
 
 const Testimonials = () => {
@@ -36,7 +32,7 @@ const Testimonials = () => {
                     <li>
                         <div className="slide">
                             <div className="user-info">
-                                <img src={user_1} alt="" />
+                                <img src="https://i.postimg.cc/2S1Wpfb0/user-1.png" alt="" />
                                 <div>
                                     <h3>Jane Doe</h3>
                                     <span>Equity Bank</span>
@@ -52,7 +48,7 @@ const Testimonials = () => {
                     <li>
                         <div className="slide">
                             <div className="user-info">
-                                <img src={user_2} alt="" />
+                                <img src="https://i.postimg.cc/XYtC4D94/user-2.png" alt="" />
                                 <div>
                                     <h3>William Jackson</h3>
                                     <span>Equity Bank</span>
@@ -68,7 +64,7 @@ const Testimonials = () => {
                     <li>
                         <div className="slide">
                             <div className="user-info">
-                                <img src={user_3} alt="" />
+                                <img src="https://i.postimg.cc/sXrGZQnL/user-3.png" alt="" />
                                 <div>
                                     <h3>Emily Johnson</h3>
                                     <span>Equity Bank</span>
@@ -84,7 +80,7 @@ const Testimonials = () => {
                     <li>
                         <div className="slide">
                             <div className="user-info">
-                                <img src={user_4} alt="" />
+                                <img src="https://i.postimg.cc/sX4QPjqg/user-4.png" alt="" />
                                 <div>
                                     <h3>Samuel Doe</h3>
                                     <span>Equity Bank</span>

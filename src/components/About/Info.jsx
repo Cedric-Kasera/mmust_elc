@@ -1,5 +1,4 @@
 import "./Info.css";
-import about_img from "../../assets/about.png";
 import play_icon from "../../assets/play-icon.png";
 import PropTypes from "prop-types";
 
@@ -7,7 +6,7 @@ const Info = ({ setPlayState }) => {
     return (
         <div className="info">
             <div className="about-left">
-                <img src={about_img} alt="" className="about-img" />
+                <img src="https://i.postimg.cc/mZSCCjWy/about.png" alt="" className="about-img" />
                 <img src={play_icon} alt="" className="play-icon cursor-pointer" onClick={() => {setPlayState(true)}} />
             </div>
 
