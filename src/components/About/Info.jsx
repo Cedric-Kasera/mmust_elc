@@ -1,13 +1,17 @@
 import "./Info.css";
 import play_icon from "../../assets/play-icon.png";
-import PropTypes from "prop-types";
+import PropTypes from 'prop-types';
 
 const Info = ({ setPlayState }) => {
+    const handlePlayIconClick = () => {
+        setPlayState(true);
+    };
+
     return (
         <div className="info">
             <div className="about-left">
                 <img src="https://i.postimg.cc/mZSCCjWy/about.png" alt="" className="about-img" />
-                <img src={play_icon} alt="" className="play-icon cursor-pointer" onClick={() => {setPlayState(true)}} />
+                <img src={play_icon} alt="" className="play-icon cursor-pointer" onClick={handlePlayIconClick} />
             </div>
 
             <div className="about-right">
@@ -28,9 +32,8 @@ const Info = ({ setPlayState }) => {
         </div>
     )
 }
-
 Info.propTypes = {
-    setPlayState: PropTypes.bool.isRequired,
+    setPlayState: PropTypes.func.isRequired,
 };
 
 export default Info

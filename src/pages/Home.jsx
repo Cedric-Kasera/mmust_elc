@@ -9,7 +9,7 @@ import Testimonials from "../components/testimonials/Testimonials"
 import Title from "../components/title/Title"
 
 const Home = () => {
-  const [playState, setPlayTest] = useState(false);
+  const [playState, setPlayState] = useState(false);
 
 
   return (
@@ -18,7 +18,7 @@ const Home = () => {
       <div className="main">
         <Title subTitle="Our Programs" title="What We Offer" />
         <Programs />
-        <Info setPlayTest={setPlayTest} />
+        <Info setPlayState={setPlayState} />
 
         <Title subTitle="Gallery" title="Chapter Photos" />
         <Gallery />
@@ -30,7 +30,7 @@ const Home = () => {
         <Contact />
       </div>
 
-      <Player playState={playState} setPlayState={setPlayTest} />
+      <Player playState={playState} setPlayState={setPlayState} />
     </div>
   )
 }
