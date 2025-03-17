@@ -1,7 +1,11 @@
+import AboutHero from "../components/AboutHero/AboutHero"
+import Feed from "../components/feed/Feed"
+
 const Events = () => {
   return (
-    <div className="bg-gray-200 py-20 sm:py-32 rounded-md">
-      <h1 className="font-bold text-4xl">Events Page</h1>
+    <div>
+      <AboutHero />
+      <Feed />
     </div>
   )
 }

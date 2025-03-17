@@ -1,0 +1,12 @@
+.about-hero {
+  width: 100%;
+  min-height: 20rem;
+  background: linear-gradient(rgba(95, 9, 9, 0.4), rgba(95, 9, 9, 0.7)),
+    url("https://i.postimg.cc/hGJN7hJV/student-Dis.jpg");
+  background-size: cover;
+  background-position: center;
+  color: var(--white);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

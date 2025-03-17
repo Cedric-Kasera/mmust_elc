@@ -1,0 +1,19 @@
+.events {
+  margin: 50px auto;
+  width: 100%;
+  background: var(--misty-rose);
+  padding: 12px;
+  border-radius: 22px;
+  flex-basis: 60%;
+}
+
+.event h1 {
+    font-size: 28px;
+    color: var(--rosewood);
+    margin: 10px 0;
+}
+
+.event-img {
+    width: 100%;
+    border-radius: 10px;
+}
