@@ -1,5 +1,5 @@
 import "./Feed.css";
-import { db } from "../../firebase/firebase-config.js";
+import { db } from "../../firebase/firebase-config";
 import { getDocs, collection } from "firebase/firestore";
 import { useState } from "react";
 import { useEffect } from "react";
@@ -42,7 +42,7 @@ const Feed = () => {
                     </div>
                 ))}
             </div>
-            
+
         </section>
     )
 }
