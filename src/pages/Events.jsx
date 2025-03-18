@@ -1,11 +1,15 @@
 import AboutHero from "../components/AboutHero/AboutHero"
 import Feed from "../components/feed/Feed"
+import TopNews from "../components/feed/TopNews"
 
 const Events = () => {
   return (
     <div>
       <AboutHero />
-      <Feed />
+      <div className="event-page main">
+        <Feed />
+        <TopNews />
+      </div>
     </div>
   )
 }

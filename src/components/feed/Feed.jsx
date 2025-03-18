@@ -3,6 +3,7 @@ import { db } from "../../firebase/firebase-config";
 import { getDocs, collection } from "firebase/firestore";
 import { useState } from "react";
 import { useEffect } from "react";
+import PostCard from "./PostCard";
 
 const Feed = () => {
     const [eventsList, setEventsList] = useState([]);
@@ -27,22 +28,10 @@ const Feed = () => {
     }, []);
 
     return (
-        <section className="main">
-            <div>
-                {eventsList.map((event) => (
-                    <div key={event.id} className="events">
-                        <h1> {event.title} </h1>
-                        <p> {event.description} </p>
-
-                        <div className="">
-                            <img src={event.image} alt="" className="about-img" />
-                        </div>
-
-                        <span> {event.date.seconds.toString()} </span>
-                    </div>
-                ))}
-            </div>
-
+        <section className="flex flex-col gap-4">
+            {eventsList.map((event) => (
+                <PostCard event={event} key={event.id} />
+            ))}
         </section>
     )
 }
