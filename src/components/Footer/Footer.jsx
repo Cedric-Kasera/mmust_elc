@@ -1,4 +1,4 @@
-import "./Footer.css";
+// import "./Footer.css";
 import Logo from "../../assets/Logo.png";
 import { FaFacebook } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa6";

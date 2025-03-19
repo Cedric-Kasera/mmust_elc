@@ -51,6 +51,7 @@
 @media (max-width: 800px) {
     .info {
         flex-direction: column-reverse;
+        width: 100%;
     }
 
     .about-left {
