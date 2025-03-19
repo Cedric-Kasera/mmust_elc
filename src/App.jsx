@@ -1,4 +1,4 @@
-import { Route, Routes } from "react-router-dom"
+import { Route, Routes, useLocation } from "react-router-dom"
 import Navbar from "./components/navbar/Navbar"
 import Home from "./pages/Home"
 import About from "./pages/About"
@@ -6,6 +6,7 @@ import Events from "./pages/Events"
 import Footer from "./components/Footer/Footer"
 
 function App() {
+  const location = useLocation();
 
   return (
     <div className="bg-[#fdfdfdff]">
@@ -20,7 +21,7 @@ function App() {
       </div>
 
       <div className="main">
-        <Footer />
+        {location.pathname !== "/events" && <Footer />}
       </div>
     </div>
   )
