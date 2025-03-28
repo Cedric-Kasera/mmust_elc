@@ -4,7 +4,8 @@ import { getDocs, collection } from "firebase/firestore";
 import { useState } from "react";
 import { useEffect } from "react";
 import PostCard from "./PostCard";
-import MyLoader from "../Loader";
+import MyInstagramLoader from "../Loader";
+
 
 const Feed = () => {
     const [eventsList, setEventsList] = useState([]);
@@ -35,7 +36,7 @@ const Feed = () => {
     }, []);
 
     if (loading) {
-        return <MyLoader />; // Display the loader while loading
+        return <MyInstagramLoader />; // Display the loader while loading
     }
 
     return (

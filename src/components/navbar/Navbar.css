@@ -92,7 +92,6 @@ nav ul li {
   .menu-icon {
     display: block;
     font-size: 40px;
-    /* width: 30px; */
     cursor: pointer;
     color: var(--white);
   }
